@@ -8,7 +8,7 @@ public class CopiaChars {
 
 	public static void main(String[] args) throws IOException {
 		FileReader fr = null;
-        FileWriter fw = null;
+        	FileWriter fw = null;
 
         try {
             fr = new FileReader("fichero_ent.txt");
