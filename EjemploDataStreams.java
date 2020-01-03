@@ -27,9 +27,9 @@ public class EjemploDataStreams {
 
 		DataInputStream in = new DataInputStream(new BufferedInputStream(new FileInputStream(fichero)));
 		try {
-			double precio;
-			int cantidad;
-			String articulo;
+		    double precio;
+		    int cantidad;
+		    String articulo;
 		    while (true) {
 		        precio = in.readDouble();
 		        cantidad = in.readInt();
