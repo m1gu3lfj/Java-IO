@@ -11,8 +11,8 @@ import java.io.IOException;
 
 public class EjemploDataStreams {
 	static final String fichero = "datos.txt";
-	static final double[] precios = { 19.99, 7.99, 11.99, 6.99, 3.99 };
-	static final int[] cantidad = { 11, 6, 12, 25, 30 };
+	static final double[] precios = {19.99, 7.99, 11.99, 6.99, 3.99};
+	static final int[] cantidad = {11, 6, 12, 25, 30};
 	static final String[] articulos = {"Camiseta", "Taza", "Gorra", "Llavero", "Calcetines"};
 
 	public static void main(String[] args) throws IOException {
