@@ -8,9 +8,9 @@ import java.io.IOException;
 
 public class CopiaLineas {
 
-	public static void main(String[] args) throws IOException {
-	    BufferedReader is = null;
-            PrintWriter os = null;
+    public static void main(String[] args) throws IOException {
+	BufferedReader is = null;
+        PrintWriter os = null;
 
         try {
             is = new BufferedReader(new FileReader("fichero_ent.txt"));
